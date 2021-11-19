@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/themes/le-frog/jquery-ui.min.css" integrity="sha512-6v1A/8Y2prgqM/i8pDxQt1JRrfSUyIMSAbSI2j15ZYpSIt+rURe+YJbZEqALlKfIYAT2jYitixhtZ5JThF5t/g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="mars.css">
+    <title>Mars images</title>
+</head>
+<body>
+    <div class="container">
+        <div class="date-div">
+            <input type="number"id="sol" name="sol" placeholder="Enter sol : max limit(1000)" max="1000">
+        </div>
+        <div class="btn">
+            <button class="get-images">Get images</button>
+        </div>
+    </div>
+    <div class="btn-div">
+        <button id="prev"> &lt;&lt; prev</button>
+        <button id="next">next &gt; &gt;</button>
+    </div>
+    <div class="images"> 
+        
+
+    </div>
+
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" integrity="sha512-uto9mlQzrs59VwILcLiRYeLKPPbS/bT71da/OEBYEwcdNUk8jYIy+D176RYoop1Da+f9mvkYrmj5MCLZWEtQuA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+     <script src="mars.js"></script>
+</body>
+</html>
